@@ -4,6 +4,12 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 
+// materializeCss
+
+import 'materialize-css/dist/css/materialize.css'
+
+import 'materialize-css/dist/js/materialize.js'
+
 Vue.config.productionTip = false
 
 new Vue({
