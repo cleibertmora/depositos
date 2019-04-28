@@ -2,6 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Add from './views/Add'
+import Bank from './views/Bank'
+import AddBank from './views/forms/AddBank'
 
 Vue.use(Router)
 
@@ -26,6 +28,16 @@ export default new Router({
       path: '/add',
       name: 'add',
       component: Add
+    },
+    {
+      path: '/bank',
+      name: 'bank',
+      component: Bank
+    },
+    {
+      path: '/add-bank',
+      name: 'addBank',
+      component: AddBank
     }
   ]
 })

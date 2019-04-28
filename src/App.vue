@@ -19,4 +19,15 @@ export default {
   body{
     font-family: 'Poppins', sans-serif;
   }
+  a {
+    cursor: pointer;
+    color: #00695c;
+  }
+  .go-back{
+    color: #00695c;
+    font-size: 1.5rem;
+  }
+  .go-back:hover{
+    color: #4db6ac;
+  }
 </style>

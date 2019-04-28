@@ -30,6 +30,11 @@ export default {
 </script>
 
 <style>
+
+    .navbar{
+        margin-bottom: 30px;
+    }
+
     .navbar .add-data {
         position: absolute;
         right: 5%;
